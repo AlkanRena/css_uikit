@@ -1,0 +1,58 @@
+main > div {
+    height: 100vh;
+	padding-top: 24px;
+}
+
+main div {
+    background-color: #f3f3f3;
+}
+
+nav.uk-card.uk-card-body {
+    background-color: #b6b6b6;
+	padding: 0px;
+}
+
+header nav ul {
+	list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	margin-bottom:0px;
+}
+
+header > div:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+header > div:nth-child(even) {
+    background-color: #000000;
+}
+
+nav.uk-card.uk-card-body:hover {
+    background-color: #ff0000;
+}
+
+header div ul {
+	-webkit-margin-after: 0;
+}
+a {
+	transition: all 3s ease;
+	color: #00ff00;
+	background-color: #990099
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: #ff00ff
+}
+
+.uk-subnav-pill>.uk-active>a {
+	background-color: #990099;
+	transition: all 3s ease;
+}
+
+.uk-subnav-pill>.uk-active>a:hover {
+	background-color: #ff00ff;
+	transition: all 3s ease;
+}
